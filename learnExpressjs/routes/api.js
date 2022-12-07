@@ -6,7 +6,7 @@ const middleware = require("../app/http/Middleware/TestMiddleware")
 
 
 
-expressMiddleware.use('/api/user', middleware.testMiddleware)
+expressMiddleware.use('/api/user', middleware.testMiddleware, middleware.testMIddleware2)
 // withoutId
 router.route('/user')
     .get(controllers.TestController.index)
