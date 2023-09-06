@@ -7,11 +7,11 @@ test("array test for unit test", () => {
 
     expect(array).toContain("Juang")
 
-    let object = {
-        firstName: "Bangkit",
-        middleName: "Juang",
-        lastName: "Raharjo"
-    }
+    let object = [
+        {firstName: "Bangkit"},
+        {middleName: "Juang"},
+        {lastName: "Raharjo"}
+    ]
 
-    expect(object).toContain({middleName: "Juang"})
+    expect(object).toContainEqual({middleName: "Juang"})
 })
