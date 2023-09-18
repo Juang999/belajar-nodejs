@@ -12,6 +12,7 @@
       "^.+\\.[t|j]sx?$": "babel-jest"
     },
     "verbose": true,
+    "maxConcurrency": 10,
     "collectCoverage": true,
     "coverageThreshold": {
       "global": {
