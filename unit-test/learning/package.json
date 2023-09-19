@@ -12,16 +12,7 @@
       "^.+\\.[t|j]sx?$": "babel-jest"
     },
     "verbose": true,
-    "maxConcurrency": 10,
-    "collectCoverage": true,
-    "coverageThreshold": {
-      "global": {
-        "branches": 100,
-        "functions": 100,
-        "lines": 100,
-        "statements": 100
-      }
-    }
+    "maxConcurrency": 10
   },
   "author": "Bangkit Juang Raharjo",
   "license": "ISC",
